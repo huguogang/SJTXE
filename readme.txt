@@ -1,5 +1,7 @@
 License Term: This Software is provided AS IS. Owner reserves all rights to the code.
 
+Notice, lib folder containing Selenium library and JUnit library required separate download
+from their own web site.
 
 SJTXE: Selenium Javascript Test eXtension for ExtJS
 Wish List
