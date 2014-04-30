@@ -18,8 +18,8 @@ import SJTXE.Configuration;
 import com.google.common.base.Function;
 
 /**
- * Base class for all ExtJS components
- * 
+ * Base class for all ExtJS components.
+ * TODO: more component query strategy, e.g. xPath 
  * @author huguogang
  * 
  */
@@ -216,11 +216,14 @@ public abstract class Component implements WebElement {
 
     /**
      * run a method call on this component
+     * 
+     * @param methodLiteral  An string literal to be called. Example: setValue('newValue')
+     * @return The object returned from method
      */
-    protected void callMethod(String methodLiteral) {
+    protected Object callMethod(String methodLiteral) {
         String js = "Ext.ComponentQuery.query(\"" + getFullQuery() + "\")[0]."
                 + methodLiteral + ";";
-        ((JavascriptExecutor) _driver).executeScript(js);
+        return ((JavascriptExecutor) _driver).executeScript(js);
     }
 
     /**

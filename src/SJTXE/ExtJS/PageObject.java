@@ -11,6 +11,8 @@ import SJTXE.Utils;
 
 /**
  * Base class for page objects. Focus is on single page application with lots of AJAX udpates.
+ * An page object should be done by UI developer, because the selectors used here should
+ * be similar to those used in the controller or other JS code.
  * 
  * @author huguogang
  *

@@ -6,7 +6,12 @@ import org.junit.runners.Parameterized.Parameters;
 import org.openqa.selenium.WebDriver;
 
 import SJTXE.JUnit.TestCase;
-
+/**
+ * Test case from ExtJS sample: XML Form
+ * 
+ * @author huguogang
+ *
+ */
 public class XMLFormTest extends TestCase {
     private static Iterable<Object[]> _browsers;
     private Page _page;

@@ -4,6 +4,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * Application specific configurations.
+ * 
+ * @author huguogang
+ *
+ */
 public class Configuration {
 	private Properties _properties;
 	private static Configuration _instance;

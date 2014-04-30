@@ -3,6 +3,8 @@ package SJTXE.ExtJS.Component;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 /**
  * Wrapper class for ExtJS combo component
  * 
@@ -35,5 +37,9 @@ public class ComboBox extends Component {
 			// ignore, sometimes the first enter is enough to dismiss
 			// the dialog
 		}
+	}
+	//TODO: select an item using the picker
+	public void pickOption(String displayValue) {
+	    throw new NotImplementedException();
 	}
 }
