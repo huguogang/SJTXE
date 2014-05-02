@@ -47,6 +47,7 @@ public abstract class TestCase {
 		for (String browser : getConfig().getBrowsers()) {
 			switch (browser) {
 			case "InternetExplorer":
+			    //  http://developertips.blogspot.com/2013/10/remeber-to-reset-ie-zoom-selenium-web.html
 				//  commented out the lines below, because
 				// 	seems like is zoom level is not 100%, there are some problems
 				//  in web driver (button clicks are missing). So we should not ignore

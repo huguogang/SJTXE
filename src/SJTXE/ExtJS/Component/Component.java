@@ -227,7 +227,8 @@ public abstract class Component implements WebElement {
     }
 
     /**
-     * Full component query for this component
+     * Full component query for this component.
+     * http://developertips.blogspot.com/2013/09/locate-extjs-component-selenium-web.html
      * 
      * @return
      */
